@@ -18,7 +18,9 @@
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
-        "drupal/core-recommended": "^9.4"
+        "drupal/core-recommended": "^9.4",
+        "drupal/media_library_form_element": "^2.0",
+        "drush/drush": "^11.3"
     },
     "conflict": {
         "drupal/drupal": "*"

@@ -1,0 +1,6 @@
+name: Vox Teneo Homepage Module
+description: Vox Teneo Homepage Module
+package: Custom
+
+type: module
+core_version_requirement: ^9

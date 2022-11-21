@@ -1,0 +1,7 @@
+voxteneo_homepage.form:
+  path: '/admin/config/development/voxteneo-homepage'
+  defaults:
+    _form: '\Drupal\voxteneo_homepage\Form\HomepageForm'
+    _title: 'Homepage settings'
+  requirements:
+    _permission: 'administer site configuration'

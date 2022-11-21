@@ -1,0 +1,16 @@
+voxteneo_homepage.settings:
+  type: config_object
+  label: 'Custom module settings'
+  mapping:
+    voxteneo_homepage:
+      type: mapping
+      mapping:
+        voxteneo_homepage_banner_title:
+          type: text
+          label: 'Banner Title'
+        voxteneo_homepage_banner_subtitle:
+          type: text
+          label: 'Banner Sub Title'  
+        voxteneo_homepage_banner_image:
+          type: media_library
+          label: 'Banner Image'    

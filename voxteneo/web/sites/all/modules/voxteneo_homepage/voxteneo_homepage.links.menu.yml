@@ -1,0 +1,5 @@
+voxteneo_homepage.form:
+  title: 'Vox Teneo Homepage settings'
+  description: 'Vox Teneo Homepage settings.'
+  route_name: voxteneo_homepage.form
+  parent: 'system.admin_config_development'
