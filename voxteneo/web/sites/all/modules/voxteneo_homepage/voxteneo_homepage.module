@@ -1,10 +1,12 @@
 <?php
 function voxteneo_homepage_theme($existing, $theme, $type, $path){
 	return [
-		'banner'=>[
+		'home'=>[
 			'variables'=>[
 				'title'=>'',
 				'subtitle'=>'',
+				'events'=>[],
+				'eventsview'=>'',
 			]
 		]
 	];
