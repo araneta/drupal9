@@ -108,9 +108,7 @@ class RelatedBlock extends BlockBase {
       '#theme'=>'related',
       
     );
-    return [
-      '#markup' => $this->t('Hello, World!'),
-    ];
+    
   }
 	public function getCacheMaxAge() {
 		return 0;
