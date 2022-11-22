@@ -8,6 +8,12 @@ function voxteneo_homepage_theme($existing, $theme, $type, $path){
 				'events'=>[],
 				'news'=>[],
 			]
+		],
+		'related'=>[
+			'variables'=>[
+				'events'=>[],
+				'news'=>[],
+			]
 		]
 	];
 }

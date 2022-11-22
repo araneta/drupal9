@@ -1,0 +1,39 @@
+{% if events %}
+  <div class="event-list"> 
+	<h3>Related Event</h3>
+	<div class="row">
+		{% for item in events %}
+		  <div class="col-md-12">										
+			<div class="event-box">
+				<div class="event-img">
+					<img src="{{item.img}}" class="img-responsive" />
+				</div>
+				<div class="txtdate">{{ item.date | raw}}</div>
+				<div class="title">{{ item.title | raw}}</div>
+				<div class="footer"><p class="text-right"><a class="btn btn-info" href="{{item.url}}">Detail</a></p></div>
+			</div>	
+		  </div>
+		{% endfor %}
+	</div>	
+  </div>
+{% endif %}
+
+{% if news %}
+  <div class="news-list"> 
+	<h3>Related News</h3>
+	<div class="row">
+		{% for item in news %}
+		  <div class="col-md-12">										
+			<div class="news-box">
+				<div class="news-img">
+					<img src="{{item.img}}" class="img-responsive" />
+				</div>
+				<div class="txtdate">{{ item.date | raw}}</div>
+				<div class="title">{{ item.title | raw}}</div>
+				<div class="footer"><p class="text-right"><a class="btn btn-info" href="{{item.url}}">Detail</a></p></div>
+			</div>	
+		  </div>
+		{% endfor %}
+	</div>	
+  </div>
+{% endif %}
