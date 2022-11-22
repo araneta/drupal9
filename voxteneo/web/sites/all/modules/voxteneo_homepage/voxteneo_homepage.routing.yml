@@ -5,3 +5,11 @@ voxteneo_homepage.form:
     _title: 'Homepage settings'
   requirements:
     _permission: 'administer site configuration'
+    
+voxteneo_homepage.home:    
+  path: '/home'
+  defaults:
+    _controller: '\Drupal\voxteneo_homepage\Controller\HomeController::content'
+    _title: 'VoxTeneo Homepage'
+  requirements:
+    _permission: 'access content'

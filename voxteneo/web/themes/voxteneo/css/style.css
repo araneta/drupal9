@@ -1,0 +1,15 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+.banner{
+	border:thin solid #000;
+	padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#txtSearch{
+	width:200px;
+}
