@@ -6,7 +6,7 @@ function voxteneo_homepage_theme($existing, $theme, $type, $path){
 				'title'=>'',
 				'subtitle'=>'',
 				'events'=>[],
-				'eventsview'=>'',
+				'news'=>[],
 			]
 		]
 	];

@@ -13,3 +13,22 @@
 #txtSearch{
 	width:200px;
 }
+.event-box{
+	border:thin solid #000;
+}
+.event-box .footer{
+	padding:20px 20px;
+}
+.event-box .body, .event-box .txtdate{
+	padding:0px 20px;
+}
+
+.news-box{
+	border:thin solid #000;
+}
+.news-box .footer{
+	padding:20px 20px;
+}
+.news-box .body, .news-box .txtdate{
+	padding:10px 20px;
+}

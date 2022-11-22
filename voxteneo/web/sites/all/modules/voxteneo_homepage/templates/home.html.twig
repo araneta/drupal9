@@ -25,13 +25,14 @@
 			<h3>Event</h3>
 			<div class="row">
 				{% for item in events %}
-				  <div class="col-md-4">
+				  <div class="col-md-6">										
 					<div class="event-box">
 						<div class="event-img">
-							<img src="{{item.img}}" class="img-responsive">
+							<img src="{{item.img}}" class="img-responsive" />
 						</div>
-						<div>{{ item.date | raw}}</div>
-						<div>{{ item.desc | raw}}</div>
+						<div class="txtdate">{{ item.date | raw}}</div>
+						<div class="body">{{ item.desc | raw}}</div>
+						<div class="footer"><p class="text-right"><a class="btn btn-info" href="{{item.url}}">Detail</a></p></div>
 					</div>	
 				  </div>
 				{% endfor %}
@@ -41,6 +42,20 @@
 		
 		<div class="col-md-4">
 			<h3>News</h3>
+			<div class="row">
+				{% for item in news %}
+				  <div class="col-md-12">										
+					<div class="news-box">
+						<div class="news-img">
+							<img src="{{item.img}}" class="img-responsive" />
+						</div>
+						<div class="txtdate">{{ item.date | raw}}</div>
+						<div class="body">{{ item.desc | raw}}</div>
+						<div class="footer"><p class="text-right"><a class="btn btn-info" href="{{item.url}}">Detail</a></p></div>
+					</div>	
+				  </div>
+				{% endfor %}
+			</div>	
 		</div>
 	</div>
 </div>
